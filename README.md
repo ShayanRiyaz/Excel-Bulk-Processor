@@ -13,4 +13,4 @@ Use the notebook provided, it's more convenient to work with.
 1. Currently adding an ```argument parser``` command line instructions
 2. This process is slower than expected, there instead of saving the files as new can be replaced with memory such as the ```keras.preprocessing``` methods.
 3. This is a part of a bigger Deep Learning pipeline, therefore in the future I will be converting this to a complete Deep Learning program, deployable on flask.
-
+4. Add more classes -> convert to a package -> publish on PyPi
