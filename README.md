@@ -1,4 +1,4 @@
-# <div align="center">ExcelBulk Processing Package</div>
+# <div align="center">ExcelBulk Processing</div>
 
 This class is currently an on going process. I wrote this while working with realtime data collection using multiple inertial measurment units. 
 ## Data
