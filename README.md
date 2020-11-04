@@ -10,8 +10,8 @@ or
 Use the notebook provided, it's more convenient to work with.
 
 ## Future Work
-- [x] Add an ```argument parser``` command line instructions
-- [ ]This process is slower than expected, there instead of saving the files as new can be replaced with memory such as the ```keras.preprocessing``` methods.
-- [ ]This is a part of a bigger Deep Learning pipeline, therefore in the future I will be converting this to a complete Deep Learning program, deployable on flask.
-- [ ]Add more classes -> convert to a package -> publish on PyPi
+[x] Add an ```argument parser``` command line instructions
+[ ]This process is slower than expected, there instead of saving the files as new can be replaced with memory such as the ```keras.preprocessing``` methods.
+[ ]This is a part of a bigger Deep Learning pipeline, therefore in the future I will be converting this to a complete Deep Learning program, deployable on flask.
+[ ]Add more classes -> convert to a package -> publish on PyPi
 
