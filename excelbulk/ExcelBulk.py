@@ -32,11 +32,14 @@ class ExcelBulk:
         for file in os.listdir(self.read_path):
             if file.endswith(".xlsx"):
                 raw_files.append(file)
+
+        
         print('\nThese are all the .xlsx files inside the folder: \n', raw_files)
         return raw_files
 
     def get_sheet_names(self,raw_files, n):
         """
+        
         Inside the directory list down the number of sheets
         in the nth file name in the raw_files list.
 

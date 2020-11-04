@@ -1,6 +1,17 @@
 import os
 
-from excel_bulk import ExcelBulk
+from excelbulk.ExcelBulk import ExcelBulk
+import argparse
+
+# Construct an argument parser
+all_args = argparse.ArgumentParser()
+
+# Add arguments to the parser
+all_args.add_argument("-i", "--InFolder",type=str, required=True,
+   help="The Folder to Read")
+all_args.add_argument("-o", "--OutFolder",type=str, required=True,
+   help="The folder to save the")
+args = vars(all_args.parse_args())
 
 if '__main__' == __name__:
     # Variables and Paths
@@ -8,12 +19,14 @@ if '__main__' == __name__:
     print(f"This is your Current Directory: \n {current_dir}")
     print(f"These are the current folders/files in this directory: \n {os.listdir(current_dir)}")
 
-    read_folder_name = input(str("Please enter the folder you want to read: "))
+    #read_folder_name = input(str("Please enter the folder you want to read: "))
+    read_folder_name = str(args['InFolder'])
     print(f"\nFolder Name:\t {read_folder_name}")
 
     read_path = os.path.join(current_dir,read_folder_name)
 
-    out_folder = input(str("Please enter the folder you want to output your results to: "))
+    # out_folder = input(str("Please enter the folder you want to output your results to: "))
+    out_folder = str(args['OutFolder'])
     out_path = os.path.join(current_dir,out_folder)
 
     if not os.path.exists(out_path):

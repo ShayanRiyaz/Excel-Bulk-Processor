@@ -5,7 +5,7 @@ This class is currently an on going process. I wrote this while working with rea
 The ```raw_data``` contains ```.xlsx``` files of 7 Subjects, with 11 columns. This is to test the class.
 
 ## How to run
-Navigate the directory and run ```python3 main.py```
+Navigate the directory and run ```python3 main.py -i FOLDER_TO_READ -o OUTPUT_FOLDER```
 or
 Use the notebook provided, it's more convenient to work with.
 
